@@ -99,6 +99,44 @@
   <li> <a href="https://480583.xyz/">我的博客</a> </li>
   
 </ul>
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+
+<h1>投票结果</h1>
+
+<div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// 加载谷歌图表
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// 绘制图表并设置图表值
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['相信', 8],
+  ['幻想', 2],
+  ['无所谓', 4],
+  ['不重要', 2],
+  ['不相信', 8]
+]);
+
+  // 可选； 添加标题并设置图表的宽度和高度
+  var options = {'title':'爱情定义度', 'width':550, 'height':400};
+
+  // 在 id="piechart" 的 div 元素中显示图表
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
+</body>
+</html>
+
 
 
 
