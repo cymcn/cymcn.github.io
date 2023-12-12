@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: black;
+        }
+        
+        h1 {
+            color: green;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0px;
+            margin: 18px 0;
+        }
+        
+        .box {
+            width: 300px;
+            height: 150px;
+            border: 1px solid gray;
+            background-color: black;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 8px 3px;
+        }
+        
+        .text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+            padding-left: 0px;
+        }
+        
+        .text a {
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        
+        .text a:last-child {
+            color: green;
+            font-size: 28px;
+        }
+        
+        /* 新增样式 */
+        .container {
+            gap: 20px;
+        }
+        
+        /* 新增样式 */
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        /* 新增样式 */
+        .search-bar input[type="text"] {
+            width: 450px; /* 缩小1倍 */
+            padding: 10px;
+            font-size: 16px;
+        }
+        
+        /* 新增样式 */
+        .search-bar input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        
+        /* 新增样式 */
+        .search-bar select {
+            margin-left: 10px;
+            font-size: 16px;
+        }
+        
+        /* 新增样式 */
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        /* 新增样式 */
+        .white-bg {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apps</h1>
+    
+    
+<!-- 搜索框 -->
+<div class="search-bar">
+    <form id="searchForm" target="_blank">
+        <input id="searchInput" type="text" name="q" placeholder="在谷歌或百度中搜索" />
+        <input type="submit" value="搜索" onclick="submitSearchForm(event)" />
+    </form>
+    <button onclick="toggleSearchEngine()">切换搜索引擎</button>
+</div>
+
+<script>
+    var searchForm = document.getElementById('searchForm');
+    var searchInput = document.getElementById('searchInput');
+    var currentSearchEngine = 'google'; // 默认为谷歌搜索
+
+    function submitSearchForm(event) {
+        event.preventDefault(); // 阻止表单默认提交行为
+        var query = searchInput.value.trim();
+        if (query !== '') {
+            if (currentSearchEngine === 'google') {
+                window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent(query);
+            } else {
+                window.location.href = 'https://www.baidu.com/s?wd=' + encodeURIComponent(query);
+            }
+        }
+    }
+
+    function toggleSearchEngine() {
+        if (currentSearchEngine === 'google') {
+            searchInput.placeholder = '在百度中搜索';
+            currentSearchEngine = 'baidu';
+        } else {
+            searchInput.placeholder = '在谷歌中搜索';
+            currentSearchEngine = 'google';
+        }
+    }
+</script>
+
+
+
+
+
+            </select>
+        </form>
+    </div>
+    
+    <div class="container">
+        <!-- 第一行 -->
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/music/">NO-1</a>
+                <a href="https://moeyy.cn/music/">网易云播放器</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/ai-paint/">NO-2</a>
+                <a href="https://moeyy.cn/ai-paint/">AI绘画</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/law-cn-ai/">NO-3</a>
+                <a href="https://moeyy.cn/law-cn-ai/">AI法律助手</a>
+            </div>
+        </div>
+        
+        <!-- 第二行 -->
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/ai-writer/">NO-4</a>
+                <a href="https://moeyy.cn/ai-writer/">AI写作</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/age-ai/">NO-5</a>
+                <a href="https://moeyy.cn/age-ai/">AI照片推理</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/ai-search">NO-6</a>
+                <a href="https://moeyy.cn/ai-search">AI搜索</a>
+            </div>
+        </div>
+        
+        <!-- 第三行 -->
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/ip/">NO-7</a>
+                <a href="https://moeyy.cn/ip/">IP归属查询</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/frp/">NO-8</a>
+                <a href="https://moeyy.cn/frp/">Frp</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/tool/">NO-9</a>
+                <a href="https://moeyy.cn/tool/">在线工具箱</a>
+            </div>
+        </div>
+        
+        <!-- 第四行 -->
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/url">NO-10</a>
+                <a href="https://moeyy.cn/url">短链接</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/baidudisk/">NO-11</a>
+                <a href="https://moeyy.cn/baidudisk/">百度网盘解析</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://webproxy.moeyy.xyz/">NO-12</a>
+                <a href="https://webproxy.moeyy.xyz/">WebProxy</a>
+            </div>
+        </div>
+        
+        <!-- 第五行 -->
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/tempfile/">NO-13</a>
+                <a href="https://moeyy.cn/tempfile/">临时文件分享</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/alltube/">NO-14</a>
+                <a href="https://moeyy.cn/alltube/">多平台视频下载</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="text">
+                <a href="https://moeyy.cn/tempmail/">NO-15</a>
+                <a href="https://moeyy.cn/tempmail/">临时邮箱</a>
+            </div>
+        </div>
+
+    </div>
+<!-- 底部 -->
+<footer class="footer">
+    <div class="container">
+        <div class="" style="display:inline">
+            <a target="_blank" rel="noopener noreferrer" href="https://moeyy.cn/app" class="animated-underline rounded-sm text-sm font-medium focus:outline-none focus-visible:ring focus-visible:ring-primary-300 dark:text-gray-200 cursor-newtab" style="color: green;">JQK</a>
+        </div>
+    </div>
+    <p class="mt-8 text-sm text-gray-600 dark:text-gray-300">jomyy 2023</p>
+</footer>
+
+
+</body>
+</html>
