@@ -1,14 +1,70 @@
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta http-equiv="Content-Style-Type" content="text/css"/>
 		<meta name="generator" content="Aspose.Words for .NET 23.11.0"/>
-		<title>XPTV使用大全-方块特供</title>
+		<title>使用大全-方块特供</title>
+		<script>
+		  copyInnerTextOfCell = (event) => {
+			let innerText = event.target.innerText;
+			var tmpInput = document.createElement("input");
+			document.body.appendChild(tmpInput);
+			tmpInput.value = innerText;
+			tmpInput.select();
+			document.execCommand("copy"); 
+			tmpInput.remove();
+			alert("复制成功！");
+		  }
+		  </script>
+		  
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+		  
+		  <!-- and it's easy to individually load additional languages -->
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+		  
+		  <script>hljs.highlightAll();</script>
+		  
+		 
+			
+		 
+		  
 		<style type="text/css">
-			body {
-				font-family: 'Times New Roman';
-				font-size: 12pt
+			.sum {
+			  display: block;
+			  white-space: pre-wrap;
 			}
+			body {
+				font-family: 'Microsoft JhengHei';
+				font-size: 12pt;
+				background-color: #F8F8F8
+			}
+			@media (prefers-color-scheme: dark) {
+			
+			 body {
+			 font-family: 'Microsoft JhengHei';
+			 font-size: 12pt;
+			 background-color: #202124;
+			
+			 }
+			
+			}
+			div {
+				background-color: white;
+				color: #222;
+				box-shadow: 0px 0px 10px #C0C0C0
+			}
+			@media (prefers-color-scheme: dark) {
+			
+			 div {
+			 background-color: #292a2d   ;
+			 color: #D0D0D0  ;
+			 box-shadow: 0px 0px 10px #101018
+			 
+			 }
+		 }
+			
 
 			p {
 				margin: 0pt
@@ -18,184 +74,237 @@
 				margin-top: 0pt;
 				margin-bottom: 0pt
 			}
+			#test
+			{
+				color:Cyan
+			}
+			@media (prefers-color-scheme: dark) {
+				#test
+				{
+					color:#3300FF
+				}
+			}
+			input{
+				background-color: #F8F8F8;
+				color: #222;
+			}
+			@media (prefers-color-scheme: dark) {
+				input{
+					background-color: #202124 ;
+					color: #D0D0D0  ;
+				}
+			}
+			code{
+				background-color: #F8F8F8;
+				
+			}
+			@media (prefers-color-scheme: dark) {
+			code{
+					background-color: #202124 ;
+					
+				}
+			}
+			
+	
+			 
+			
 		</style>
 	</head>
 	<body>
-		<div>
-			<h2 style="text-align:center;">
-				<span style="font-family:'Microsoft JhengHei'">XPTV使用大全
-			</h2>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">非申明：这是一款普普通通不算优秀的vod播放器 有bug就狠狠提出加钱就修复 更新看心情
-				</span>
+		<div style="min-height:240vh;max-width: 800px;margin: 0 auto;">
+			<h1 style="text-align:center">
+				<span style="font-family:'Courier New';font-size:15.5pt; -aw-import:spaces">&#xa0;</span><br>
+				<span id="test">XPTV使用大全 </span>
+				<span style="color:red;font-size:10.5pt">ver1.6</span>
+			</h1>
+			<p style="text-align:center;">
+				<span style="font-size:11.5pt"><b>前言：以下为最新版教程与部分资源 须随时更新到最新版 </b></span>
+				<br><span style="color:red;font-size:11.5pt"><b>ios1.8(20)，tvos1.28(50)</b></span>
+				<br><span style="font-size:11.5pt">更新类容已在结尾加上<span style="color:red"><b>*</b></span> </span>
+				<br><span style="font-family:'Courier New';font-size:3.5pt; -aw-import:spaces">&#xa0;</span>
+				<br><a href="https://apps.apple.com/us/app/xptv/id6459409368">APP商店：XPTV</a>（须登入国区以外的商店）
+				<br>不会购买可看：<a href="https://t.me/seeseeni/33781">@FOX FOX的购买示范</a>
+				<br><span style="color:red;font-size:10.5pt">支持版本：macosM系13.0以上 ios16.0以上 ipados16.0以上 tvos16.0以上</span>
+				<br><span style="font-family:'Courier New';font-size:3.5pt; -aw-import:spaces">&#xa0;</span>
+				<br><span style="font-size:11.5pt">【IOS端不能下载解决方案:进入APPStore—>已购—>任选一个软件—>左划隐藏 即可正常下载了】
+					<br>电报群:<a href="https://t.me/seeseeni">XPTV（无售后，自助服务）<a></b></span>
+					<br><b><span style="color:red">提问题之前请确保自己意识清醒的看完了整页大全并注意版本更新，是否为正版，若是ipa用户就不要瞎叫唤，<br>话说重点:因为你们本就没有资格搁这提出问题</span></b>
 			</p>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">
-					<a href="https://apps.apple.com/us/app/xptv/id6459409368">APP商店</a>（须登入国区以外的商店）
-					</span>
-			</p>
-			<p style="font-size:10.5pt">
-				<span style="font-family:'Microsoft JhengHei'">【IOS端不能下载解决方案：（方法来自群友@jjsz w）
-				</span>
-			</p>
-			<p style="text-indent:12.6pt; font-size:10.5pt">
-				 <span style="font-family:'Microsoft JhengHei'">进入APPStore—>已购—>任选一个软件—>左划隐藏
-				 </span>
-			</p>
-			<p style="text-indent:12.6pt; font-size:10.5pt">
-				 <span style="font-family:'Microsoft JhengHei'">即可正常下载了】支持版本：macosM系13.0以上 ios16.0以上 ipados16.0以上 tvos16.0以上
-				 </span>
-			</p>
-			<h3>
-				<span style="font-family:'Microsoft JhengHei'">阿里云盘</span>
-			</h3>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">阿里云盘 </span>
-					<span style="font-family:'Courier New';color:red">aliyun</span>
-				<span style="font-family:'Microsoft JhengHei'">（手机暂不支持，tvos可扫码登入 注：直接输入</span>
-				<span style="font-family:'Courier New'">aliyun</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">小纸条资源（待支持</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">玩偶资源 </span>
-				<span style="font-family:'Courier New';color:red">vod://wogg </span>
-				<span style="font-family:'Microsoft JhengHei'">(选配置阿里云盘&转存Token，建议删除之前创建的阿里云盘重新添加，转存token获取看下面更详细介绍
-				</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">Alist服务（待支持</span>
-			</p>
-			<h3>
-				<span style="font-family:'Microsoft JhengHei'">阿里云盘配置转存Token（Alist叫刷新令牌）</span>
-			</h3>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">目前手动添加token链接获取复制到TV APP
-				上，下个版本在APP上扫二维码就可添加</span>
-			</p>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">方法1:电脑登入<a href="https://www.aliyundrive.com/drive/file/backup">阿里云盘网站</a>F12打开开发者工具点击console输入</span>
-				<span style="font-family:'Courier New'">alert(JSON.parse(localStorage.token).refresh_token)</span>
-				<span style="font-family:'Microsoft JhengHei'">复制弹出的信息或点击Application(应用)-->下方左侧Local Storage(本地存储空间)-->https://www.aliyundrive.com-->右侧找到token并点击-->滑动下方代码栏查找refresh_token然后将引号内的码复制即可</span>
-			</p>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">图片可在<a href="https://docs.qq.com/doc/DQUFzZUR5Y3lSbHdp">XPTV播放器指南</a>中查看</span>
-			</p>
-			<p> 
-				<span style="font-family:'Microsoft JhengHei'">方法2:手机App商店下载<a href="https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171">stay</a>之后按照stay中的方法在safari浏览器中激活插件，一切准备就绪后打开stay点击右上角的加号-->通过链接-->输入</span>
-				<span style="font-family:'Courier New'">https://update.greasyfork.org/scripts/463087/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E8%8E%B7%E5%8F%96token.user.js</span>
-			<span style="font-family:'Microsoft JhengHei'">-->保存-->创建 然后回到主页确认脚本左下角为已激活后打开safari浏览器前往<a href="https://www.aliyundrive.com/drive/file/backup">阿里云盘网站</a>登入后token就可以在右下角复制了</span>
-			</p>
-			<p>
-				此方法适用于支持脚本的浏览器只要安装<span style="font-family:'Courier New'">https://update.greasyfork.org/scripts/463087/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E8%8E%B7%E5%8F%96token.user.js</span>脚本就行
+			<main style="margin-left: 1rem;margin-right: 1rem">
+			<h2>用前准备</h2>
+			<ul style="line-height:1.75;">
+				<li><b>须在以下俩个源中选择一个复制到订阅中使用
+					<br>(添加后如果没有加载出来须重启XPTV)</b></li>
+				
+				<ul>
+					<li><span style="font-size:10.5pt">源多但有广告的也多--XPTV「包含XPTV(精)」:</span>
+					<input id="text" value="https://raw.githubusercontent.com/fangkuia/XPTV/main/CMS%E6%BA%90/XPTV.json" style="width: 300px;" >
+					<li><span style="font-size:10.5pt">源少但广告也少--XPTV(精)「建议添加」:</span>
+					<input id="text1" value="https://raw.githubusercontent.com/fangkuia/XPTV/main/CMS%E6%BA%90/XPTV(%E7%B2%BE).json" style="width: 300px;" >
+				</ul>
 			
-			<h3>
-				<span style="font-family:'Microsoft JhengHei'">VODS</span>
-			</h3>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">一键订阅</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://111222</span>
-				<span style="font-family:'Microsoft JhengHei'">【vod是小写，注意前后不要空格】</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">低端影视</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://ddys </span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">厂长资源</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://czzy</span>
-				<span style="font-family:'Courier New'">，</span>
-				<span style="font-family:'Microsoft JhengHei'">如果无法显示可参考下面配置</span>
-				<span style="font-family:'Courier New'">cookie</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">量子</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://lzzy</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">非凡</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://ffzy</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">索尼</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://snzy</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">快看</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://kkzy</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">无尽</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://wjzy</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">欧乐</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://ole</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">在线之家</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New';color:red">vod://zxzj</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">更多支持中</span>
-			</p>
-			<p style="color:LavenderBlush">
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">Miss</span>
-				<span style="font-family:'Courier New'; -aw-import:spaces">&#xa0;</span>
-				<span style="font-family:'Courier New'">vod://missav</span>
-			</p>
-			<h3>
-				<span style="font-family:'Microsoft JhengHei'">CMS资源</span>
-			</h3>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">C支持通用json格式，tvos支持单条json输入或者浏览器批量输入，ios同样支持单条输入或者批量输入，跟tvbox源数据里的格式一致 注：这类源大多容易失效</span>
-			</p>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">单条输入</span>
-				<span style="font-family:'Courier New'"></span>
-				<span style="font-family:'Microsoft JhengHei'">如</span>
-				<span style="font-family:'Courier New'">：</span>
-			</p>
-			<p style="text-indent:6.3pt; font-size:10.5pt;color:red">
-				{"key":"樱花资源","name":"樱花资源(切)","type":1,"api":"https://m3u8.apiyhzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1}
-			</p>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">将这一整条复制即可</span>
-			</p>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">多条输入</span>
-				<span style="font-family:'Courier New'"></span>
-				<span style="font-family:'Microsoft JhengHei'">如</span>
-				<span style="font-family:'Courier New'">：</span>
-			</p>
-			<p style="font-size:10.5pt;color:red">{"key":"樱花资源","name":"樱花资源(切)","type":1,"api":"https://m3u8.apiyhzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1}</p>
+				<li style="font-family:'Microsoft JhengHei'"><b>为满足部分需求所设置的源(可加可不加)</b></li>
+				<ul>
+					<li><span style="font-size:10.5pt">XPAV:</span>
+					<input id="text2" value="https://raw.githubusercontent.com/fangkuia/XPTV/main/CMS%E6%BA%90/XPAV.json" style="width: 300px;" ></li>
+					<li><span style="font-size:10.5pt">XPAV(精):</span>
+					<input id="text3" value="https://raw.githubusercontent.com/fangkuia/XPTV/main/CMS%E6%BA%90/XPAV(%E7%B2%BE).json" style="width: 300px;" ></li>
+				</ul>
+			
+				<li><b>常见问题:</b></li>
+				<ul>
+					<li>订阅不了源的话可能是网络环境问题 需要VPN</li>
+				
+					<li>若还是添加不了可试着使用创作者的测试源:
+					<br><input id="text7" value="https://infuseku.xyz/test.json" style="width: 175px;" >
+					</li>
+					
+				
+				</ul>	
+				<li><a href="https://t.me/xptvsp/23"><b>JSON链接订阅教程</a> TV同理</b></li>
+				
+			</ul>
+			<h2>IOS操作:
+				<br><span style="color:red;font-size:9.5pt"><b> 仅为IOS操作教学阿里云盘等源的添加请看下方</b></span></h2>
+				<details>
+			<ul style="line-height:1.75;">
+				<li>在订阅中点击加号可添加VOD·CMS·IPTV进行影视播放</li>
+			
+				<li>左滑(mac要使用两根手指)可给对应源重命名，置顶，删除</li>
+				
+				<li>长按源或点击左上角编辑都可拖动进行自定义排序</li>
+				
+				<li>在aliyun中点击阿里云盘可扫码登入，之后长按(mac为右键)可设置Token(转存的前提条件)</li>
+				
+				<li>云盘空间不足时可打开阿里云盘在右上角一键删除缓存<br>也可设置自动清理缓存：定期和超出百分比自动清除</li>
+				
+				<li>一键删除功能均在右上角</li>
+				
+				<li>可在订阅的右上角设置批量配置：全局搜索 播放记录 隐藏订阅<span style="color:red"><b>*</b></span></li>
+				
+				<li>可长按(mac为右键)正在观看下的影片可进行删除记录</li>
+				
+				<li>可在每个影片的海报页面右上角快捷搜索，长按左上角可选择返回页面</li>
+				
+				<li>可在每个影片选择完播放源后在右上角收藏，升降序</li>
+				
+				<li>搜索完成之后会有记录以便快速搜索</li>
+			
+				<li>mac可以在设置里开启固定横屏来提升体验</li>
+			
+				<li>设置页面，长按(mac为右键)版本（ - 更换端口，清除缓存，查看隐藏的订阅</li>
+			</ul>
+				</details>
+			<h2>TV操作:
+				<br><span style="color:red;font-size:9.5pt"><b> 仅为TV操作教学阿里云盘等源的添加请看下方</b></span>
+			</h2><details>
+			<ul style="line-height:1.75;">
+				<li>在订阅中可添加VOD·CMS·IPTV进行影视播放</li>
+			
+				<li>可长按源删除，置顶，配置对应源<br>
+			可配置：全局搜索 播放记录 隐藏订阅</li>
+				<li>可以通过长按VOD或CMS,IPTV一键删除对应的所有片源</li>
+			
+				<li>在aliyun中点击阿里云盘可扫码登入，之后长按可配置token(转存的前提条件)，删除转存，自动清理缓存：定期和超出百分比自动清除</li>
+			
+				<li>详情页，长按标题可设置关注、刷新海报（如果有更新）、将剧集清单列表升降序 <br>转存源中长按标题可以删除转存记录</li>
+		
+				<li>可长按正在观看下的影片进行删除</li>
+			
+				<li>设置页面，长按版本（ - 更换端口，清除缓存，查看隐藏的订阅</li>
+		
+				<li>可以在设置中改变播放器</li>
+			</ul></details>
+			<h2>Token获取</h2>
+			<details>
+			<ul style="line-height:1.75;">
+				<li><b>可扫码直接配置(风险自己判断) 也可使用下面俩种方法</b></li>
+			
+				<li><b>方法1:<summary></b>电脑登入<a href="https://www.aliyundrive.com/drive/file/backup">阿里云盘网站</a>按F12或打开开发者工具
+				<br>手机用户则可以安装<a href="https://apps.apple.com/jp/app/web-inspector/id1584825745">Web Inspector</a>
+				<br>安装完成后打开safari浏览器登入<a href="https://www.aliyundrive.com/drive/file/backup">阿里云盘网站</a>-->点击左下角拼图图标打开管理插件-->将Web Inspector开启-->再点击左下角拼图图标点击Web Inspector 便可使用了
+				<br>俩者的用法相同：点击console输入
+				<input id="text4" value="alert(JSON.parse(localStorage.token).refresh_token)" style="width: 300px;" >点击Execuie(回车)复制弹出的信息即可
+				<br>(如果会使用ALOOK等浏览器按着方法同样能获取)不会的话就按教程来
+				<br><b>视频教程：<a href="https://t.me/xptvsp/4">电脑获取</a> ，<a href="https://t.me/xptvsp/15">手机获取</a></b></span>
+				</li></summary>
+			
+				<li><b>方法2:<summary></b>在支持脚本的浏览器中安装<input id="text5" value="https://update.greasyfork.org/scripts/463087/%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98%E8%8E%B7%E5%8F%96token.user.js" style="width: 300px;" >脚本
+				<br>登入<a href="https://www.aliyundrive.com/drive/file/backup">阿里云盘网站</a>即可在右下角查看到Token了
+				<br>Safari可以通过安装如<a href="https://apps.apple.com/cn/app/stay-for-safari-%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BC%B4%E4%BE%A3/id1591620171">stay</a>之类支持通过链接安装脚本的插件来使用
+				<br><b>使用教程：<a href="https://t.me/xptvsp/3">Safari使用Token获取插件</b></a></summary>
+			</ul>
+			</details>
+			<h2>阿里云盘aliyun<span style="color:red;font-size:9.5pt"><b> 支持搜索</b></span></h2>
+			<ul style="line-height:1.75;">
+				<li><b>阿里云盘</b>（将
+					<span style="font-family:'Courier New'" onclick="copyInnerTextOfCell(event)"><b>aliyun</b></span>
+					输入到订阅即可创建<br>在aliyun中点击阿里云盘可扫码登入，之后长按(mac为右键)可设置Token(转存的前提条件)
+						</li>
+				
+				<li><b>转存源(以下源中想要观看的影片会转存至云盘)</b>
+				<br>订阅链接:<input id="text7" value="https://raw.githubusercontent.com/fangkuia/XPTV/main/CMS%E6%BA%90/aliyun.json" style="width: 300px;" ></li>
+				<ul>
+					<li>小纸条 (海外用户得翻回国才可打开 海报较少</li>
+					<li>玩偶资源</li>
+					<li>JOJO</li>
+				</ul>
+			
+				<li><b>常见问题:</b></li>
+				<ul>
+					<li>不要使用Alist、tvbox获取的Token会报client id错误</li>
+					<li>转存前须确保自己的云盘空间 空间不够也会报错</li>
+					<li><b>若还是无法转存就删除阿里云盘重新进行添加</b></li>
+				</ul>
+			</ul>
+			<h2>VODS<span style="color:red;font-size:9.5pt"><b> 支持搜索 </b></span></h2>
+			<ul style="line-height:1.75;">
+				<li>支持http后缀为.json的链接订阅<br>如调试链接:<input id="text7" value="https://infuseku.xyz/test.json" style="width: 175px;" ></li>
+			
+				<li>支持导入本地json文件</li>
+			
+				<li>支持tvbox源数据里的格式一致的源，type=3<br>(题外话：不要尝试添加其他VOD源，因为基本没有适配)</li>
+			
+				<li>源格式如下:<pre><code class="language-json">{"key":"csp_Zxzj","name":"Zxzj",
+"type":3,"api":"csp_Zxzj",
+"searchable":1,"quickSearch":1,
+"changeable":1,
+"ext":"https://www.zxzj.pro/"}</code></pre>
+				
+				</li>
+			
+				<li>厂长配置(如果打不开厂长资源 那可更改配置但不一定能解决)<span style="color:red"><b>*</b></span></li>
+			
+				<ul>
+					<li>Host默认为电信联通推荐:<input id="text7" value="https://www.czzy88.com" style="width: 150px;" >
+						<br>可更改为联通移动推荐:<input id="text7" value="https://www.CZZ9.com" style="width: 150px;" ><br>或<input id="text7" value="https://www.czzy33.com" style="width: 150px;" ></li>
+						<span style="font-family:'Courier New';font-size:5.5pt; -aw-import:spaces">&#xa0;</span>
+					<li>其他配置不做更改 如果有强迫症可以吧Cookie改为<input id="text7" value="myannoun=1" style="width: 90px;" ></li>
+				</ul>
+	
+				<li><b>常见问题:</b></li>
+				<ul>
+					<li>VOD源的卡顿或无法播放为正常现象 <br>可能是人流原因也可能是网络环境问题 <br>习惯就好</li>
+					<li>加不了VOD源的原因可能是源的格式有问题</li>
+					<li>VOD源里面是空白的原因 可能是源没有适配也可能是网络环境问题</li>
+					<li>这类源可能会失效 不要太过惊讶</li>
+				</ul>
+			</ul>
+			<h2>CMS<span style="color:red;font-size:9.5pt"><b> 支持搜索 </b></span></h2>
+			<ul style="line-height:1.75;">
+				<li>支持http后缀为.json的链接订阅 可与VOD源放在一起
+				<br>如调试链接:<input id="text7" value="https://infuseku.xyz/test.json" style="width: 175px;" ></li>
+			
+				<li>支持导入本地json文件</li>
+			
+				<li>支持tvbox源数据里的格式一致的源，type=1</li>
+		
+				<li>源格式如下:<pre><code class="language-json">{"key":"yhys","name":"yhys",
+"type":1,
+"api":"https://m3u8.apiyhzy.com/
+api.php/provide/vod/",
+"searchable":1,"quickSearch":1}</code></pre></li>
+      <p style="font-size:10.5pt;color:red">{"key":"樱花资源","name":"樱花资源(切)","type":1,"api":"https://m3u8.apiyhzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1}</p>
 			<p style="font-size:10.5pt;color:red">{"key":"卧龙资源","name":"卧龙资源(切)","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1}</p>
 			<p style="font-size:10.5pt;color:red">{"key":"百度资源","name":"百度资源(切)","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1}</p>
 			<p style="font-size:10.5pt;color:red">{"key":"量子资源","name":"量子资源(切)","type":1,"api":"http://cj.lziapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1}</p>
@@ -204,77 +313,39 @@
 			<p>
 				<span style="font-family:'Microsoft JhengHei'">将这全部复制即可 </span>
 			</p>
-			<p> 
-				<span style="font-family:'Microsoft JhengHei'">更多资源可查看<a href="https://raw.githubusercontent.com/fangkuia/XPTV/main/xptv%20(%E6%9B%B4%E6%96%B0%E4%BA%8E12.15).txt">xptv.txt</a>,<a href="https://raw.githubusercontent.com/fangkuia/XPTV/main/xpav(%E6%9B%B4%E6%96%B0%E4%BA%8E12.15).txt">xpav.txt</a>
-			<h3>
-				<span style="font-family:'Microsoft JhengHei'">IPTV</span>
-			</h3>
-			<p>
-				<span style="font-family:'Courier New'">●</span>
-				<span style="font-family:'Microsoft JhengHei'">直接输入</span>
-				<span style="font-family:'Courier New'">m3u</span>
-				<span style="font-family:'MS Gothic'">、</span>
-				<span style="font-family:'Courier New'">txt</span>
-				<span style="font-family:'Microsoft JhengHei'">等直播源</span>
-				<span style="font-family:'Courier New'">(ipv6</span>
-				<span style="font-family:'Microsoft JhengHei'">测试源</span>
-				<span style="font-family:'Courier New';color:red">https://live.fanmingming.com/tv/m3u/ipv6.m3u</span>
-			</p>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">其他直播源</span>
-				<span style="font-family:'Courier New'">：*</span>
-				<span style="font-family:'Microsoft JhengHei'">为出处</span>
-				<span style="font-family:'Courier New'"></span>
-				<span style="font-family:'Microsoft JhengHei'">不保证都可使用</span>
-			</p>
-			<p style="margin-left:18.9pt; text-indent:-18.9pt; font-size:10.5pt; -aw-import:list-item; -aw-list-level-number:0; -aw-list-number-format:'*'; -aw-list-number-styles:'bullet'; -aw-list-padding-sml:12.6pt">
-				<span style="-aw-import:ignore">
-					<span style="font-family:'Courier New'">
-						<span>*</span>
-					</span>
-				<span style="font-family:'Microsoft JhengHei'"><a href="https://github.com/2hacc/TVBox/tree/main/live">2hacc</a></span>
-			</p>
-			<p style="font-size:10.5pt">
-				<span style="font-family:'Courier New';color:red">https://raw.githubusercontent.com/2hacc/TVBox/main/live/live.txt</span>
-			</p>
-			<p style="font-size:10.5pt">
-				<span style="font-family:'Courier New';color:red">https://raw.githubusercontent.com/2hacc/TVBox/main/live/hlive.txt</span>
-			</p>
-			<p style="margin-left:18.9pt; text-indent:-18.9pt; font-size:10.5pt; -aw-import:list-item; -aw-list-level-number:0; -aw-list-number-format:'*'; -aw-list-number-styles:'bullet'; -aw-list-padding-sml:12.6pt">
-				<span style="-aw-import:ignore">
-					<span style="font-family:'Courier New'">
-						<span>*</span>
-					</span>
-				<span style="font-family:'Microsoft JhengHei'"><a href="https://github.com/mengzehe/TVBox">mengzehe</a></span>
-			</p>
-			<p style="font-size:10.5pt">
-				<span style="font-family:'Courier New';color:red">https://raw.githubusercontent.com/mengzehe/TVBox/main/18/18live-1.m3u</span>
-			</p>
-			<p style="font-size:10.5pt">
-				<span style="font-family:'Courier New';color:red">https://raw.githubusercontent.com/mengzehe/TVBox/main/18/18live.txt</span>
-			</p>
-			<p style="margin-left:18.9pt; text-indent:-18.9pt; font-size:10.5pt; -aw-import:list-item; -aw-list-level-number:0; -aw-list-number-format:'*'; -aw-list-number-styles:'bullet'; -aw-list-padding-sml:12.6pt">
-				<span style="-aw-import:ignore">
-					<span style="font-family:'Courier New'">
-						<span>*</span>
-					</span>
-				<span style="font-family:'Microsoft JhengHei'"><a href="https://github.com/YueChan/Live/tree/main">YueChan</a></span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New';color:red">https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u</span>
-			</p>
-			<p>
-				<span style="font-family:'Courier New';color:red">https://raw.githubusercontent.com/YueChan/Live/main/IPTV.txt</span>
-			</p>
-			<h2>
-				<span style="font-family:'Microsoft JhengHei'">Musify</span>
-			</h2>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">一款目前网易云支持良好、其他协议支持依旧还在画饼阶段的音乐播放器</span>
-			</p>
-			<p>
-				<span style="font-family:'Microsoft JhengHei'">可参考@<a href="https://t.me/me888888888888/107">小声逼逼写的教程</a></span>
-			</p>
+		
+				<li><b>常见问题:</b></li>
+				<ul>
+					<li>CMS源的卡顿或无法播放为正常现象 <br>可能是网络环境问题但大概率是源失效了 <br>总而言之习惯就好</li>
+	
+					<li>加不了CMS源的原因可能是源的格式有问题</li>
+				
+					<li>CMS源里面是空白的原因 <br>大概率是源失效了也可能是网络环境问题</li>
+			
+					<li>这类源大概率会失效 不要太过惊讶</li>
+				</ul>
+			</ul>
+			<h2>IPTV</h2>
+			<ul style="line-height:1.75;">
+				<li>支持http后缀为.txt或.m3u的链接订阅如：</li>
+				<ul>
+					<li><a href="https://github.com/YueChan/Live/">YueChan</a>
+					<br><input id="text7" value="https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u" style="width: 300px;" >
+					<br><input id="text7" value="https://raw.githubusercontent.com/YueChan/Live/main/IPTV.txt" style="width: 300px;" ></li>
+				
+					<li><a href="https://github.com/2hacc/TVBox/">2hacc</a>
+					<br><input id="text7" value="https://raw.githubusercontent.com/2hacc/TVBox/main/live/live.txt" style="width: 300px;" >
+					<br><input id="text7" value="https://raw.githubusercontent.com/2hacc/TVBox/main/live/hlive.txt" style="width: 300px;" ></li>
+				
+					<li><a href="https://github.com/mengzehe/TVBox">mengzehe</a>
+					<br><input id="text7" value="https://raw.githubusercontent.com/mengzehe/TVBox/main/18/18live-1.m3u" style="width: 300px;" >
+					<br><input id="text7" value="https://raw.githubusercontent.com/mengzehe/TVBox/main/18/18live.txt" style="width: 300px;" >
+					<br><span style="font-family:'Courier New';font-size:3.5pt; -aw-import:spaces">&#xa0;</span></li>
+				</ul>
+			
+			</main>
+			
 		</div>
+		
 	</body>
 </html>
